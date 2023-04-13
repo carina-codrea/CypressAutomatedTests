@@ -1,7 +1,5 @@
 describe('Cart',() => {
     beforeEach(() => {
-        cy.clearCookies();
-        cy.clearLocalStorage();
         cy.visit('https://www.saucedemo.com/');
         cy.get('[data-test="username"]').type('standard_user');
         cy.get('[data-test="password"]').type('secret_sauce');

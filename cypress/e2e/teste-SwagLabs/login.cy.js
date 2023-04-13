@@ -1,9 +1,6 @@
 describe('Teste Swag Labs',() => {
     beforeEach(() => {
-        cy.clearCookies();
-        cy.clearLocalStorage();
         cy.visit('https://www.saucedemo.com/');
-        
     })
 
     it('erorr message appears after introducing incorrect credentials',() => {    
